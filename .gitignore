@@ -33,13 +33,22 @@ out/
 /nbdist/
 /.nb-gradle/
 
+### VS Code ###
 .vscode/
 
+### Environment Files ###
 .env
 .env.example
 
+### Database Files ###
 *.db
 
+### Logs ###
 /logs/
 *.log
 
+### Additional Ignored Files ###
+/target/
+.DS_Store
+Thumbs.db
+node_modules/
